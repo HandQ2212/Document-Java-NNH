@@ -11,7 +11,7 @@ Quy trình hoạt động của Java được chia làm 3 bước chính:
 - **Viết mã nguồn**: Lập trình viên viết mã nguồn Java trong các tệp .java.
 - **Biên dịch mã nguồn**: Mã nguồn Java được biên dịch bởi trình biên dịch Java (Java Compiler) thành bytecode (tệp .class). Bytecode này không phải là mã máy mà máy tính có thể hiểu ngay, nhưng nó là dạng trung gian có thể được hiểu bởi bất kỳ hệ điều hành nào có JVM.
 - **Chạy chương trình**: Bytecode sau đó được JVM thực thi. JVM dịch bytecode này thành mã máy (machine code) để hệ điều hành và phần cứng cụ thể có thể hiểu và thực thi chương trình.
-![alt text](javaHD.png)
+![](javaHD.png)
 ## IV. Cấu trúc 1 chương trình Java
 ```java
 public class ClassName{
@@ -20,7 +20,7 @@ public class ClassName{
   }
 }
 ```
-![alt text](cautrucJava.jpg)
+![](cautrucJava.jpg)
 ## V. Package là gì
 Package trong java là một group (nhóm) các class, interface và các package khác. Trong java chúng ta sử dụng package để tổ chức cấu trúc dự án hợp lý. Thông thường các class, interface và các package khác chứa trong package cha sẽ có những đặc điểm chung và xử lý cho các tình huống cụ thể.
 
@@ -129,7 +129,7 @@ System.out.println(class[0]);
       * **<class_name>()**: class dùng để tạo bạn đối tượng.
 
 * ***Hình ảnh mô tả Class và Object***
-![alt text](classandobject.jpg)
+![](classandobject.jpg)
 #### 1. This
 **Trong java, Từ khóa this có 6 cách sử dụng như sau:**
 
